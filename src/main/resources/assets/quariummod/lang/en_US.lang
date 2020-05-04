@@ -1,0 +1,29 @@
+itemGroup.Quarium Tab=Quarium Mod
+
+
+item.Quarium_Ingot.name=Quarium Ingot
+item.samarium_ingot.name=Samarium Ingot
+item.Samarium_Chunk.name=Samarium Chunk
+item.Erbium_ingot.name=Erbium Geme
+item.rutherium_ingot.name=Rutherium Ingot
+item.Cuprite_Ingot.name=Cuprite Ingot
+item.prometium_ingot.name=Prometium Shard
+
+tile.Quarium block.name=Quarium Block
+tile.Quarium ore.name=Quarium Ore
+
+tile.Cuprite block.name=Cuprite Block
+tile.Cuprite ore.name=Cuprite Ore
+
+tile.Samarium block.name=Samarium Block
+tile.Samarium ore.name=Samarium Ore
+
+
+tile.rutherium block.name=Rutherium Block
+tile.rutherium ore.name=Rutherium Ore
+
+tile.prometium block.name=Prometium Block
+tile.prometium ore.name=Prometium Ore
+
+tile.erbium block.name=Erbium Block
+tile.erbium ore.name=Erbium Ore

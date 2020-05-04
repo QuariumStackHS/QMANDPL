@@ -1,0 +1,34 @@
+package qc.slow.quariummod.items;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import qc.slow.quariummod.Main;
+import qc.slow.quariummod.Ref;
+import qc.slow.quariummod.Tabs.Tabs;
+
+public class items {
+	public static Item Quarium_ingot;//top end
+	public static Item Cuprite_ingot;//good 
+	public static Item samarium_ingot;//cheat but hard to have
+	public static Item rutherium_ingot;//good and better then Cuprite 
+	public static Item erbium_ingot;//to use as bone meel and chit like that
+	public static Item prometium_ingot;
+public static void init() {
+	
+	Quarium_ingot = new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("Quarium_Ingot").setTextureName(Ref.MOD_ID+":Quarium_Ingot");
+	Cuprite_ingot = new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("Cuprite_Ingot").setTextureName(Ref.MOD_ID+":Cuprite_Ingot");
+	samarium_ingot = new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("samarium_ingot").setTextureName(Ref.MOD_ID+":samarium_ingot");
+	rutherium_ingot= new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("rutherium_ingot").setTextureName(Ref.MOD_ID+":rutherium_ingot");
+	erbium_ingot= new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("Erbium_ingot").setTextureName(Ref.MOD_ID+":Erbium_ingot");
+	prometium_ingot= new Item().setCreativeTab(Tabs.QuariumTab).setUnlocalizedName("prometium_ingot").setTextureName(Ref.MOD_ID+":prometium_ingot");
+}
+public static void register() {
+	GameRegistry.registerItem(Quarium_ingot, "Quarium_ingot");
+	GameRegistry.registerItem(Cuprite_ingot, "Cuprite_ingot");
+	GameRegistry.registerItem(samarium_ingot, "Samarium_ingot");
+	GameRegistry.registerItem(rutherium_ingot, "Rutherium_ingot");
+	GameRegistry.registerItem(erbium_ingot, "Erbium_ingot");
+	GameRegistry.registerItem(prometium_ingot, "Prometium_ingot");
+}
+}

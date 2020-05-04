@@ -1,0 +1,18 @@
+package qc.slow.quariummod.world.struct;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.world.World;
+import qc.slow.quariummod.blocks.blocks;
+
+public class temple1struct {
+public static void inits(World w, int x, int y, int z) {
+	int cy=y;
+	
+	while(Blocks.air!=w.getBlock(x, y, z)) {cy++;}
+	if (w.getBlock(x,cy-y,z)==Blocks.grass && w.getBlock(x,cy+5,z)==Blocks.air) {
+	w.setBlock(x, cy, z, blocks.Quarium_Block);
+	w.setBlock(x, cy+1, z, blocks.Quarium_Block);
+	w.setBlock(x, cy+2, z, blocks.Quarium_Block);
+	w.setBlock(x-1, cy, z, blocks.Quarium_Block);
+	w.setBlock(x+1, cy, z, blocks.Quarium_Block);}
+}}

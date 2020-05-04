@@ -1,0 +1,8 @@
+package qc.slow.quariummod;
+
+public class Ref {
+ public static final String MOD_ID="QuariumMod";
+ public static final String MOD_NAME="Quarium Mod";
+
+
+}

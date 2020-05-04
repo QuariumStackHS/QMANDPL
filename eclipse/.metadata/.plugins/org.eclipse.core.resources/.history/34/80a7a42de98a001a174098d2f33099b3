@@ -1,0 +1,32 @@
+package qc.slow.quariummod;
+
+import cpw.mods.fml.common.Mod;
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.SidedProxy;
+import cpw.mods.fml.common.event.FMLInitializationEvent;
+import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import qc.slow.quariummod.CSP.CommonLoad;
+import qc.slow.quariummod.items.items;
+
+@Mod(modid=Ref.MOD_ID,name=Ref.MOD_NAME,version = Ref.VERSION)
+public class Main {
+	@SidedProxy(clientSide = Ref.CLIENT_P, serverSide = Ref.SERVER_P)
+	public static CommonLoad proxy;
+	@EventHandler
+public void preinit(FMLPreInitializationEvent e) {
+	items.init();
+	
+}
+	@EventHandler
+public void init(FMLInitializationEvent e) {
+		proxy.registerRenders();
+	
+	
+}
+	@EventHandler
+public void postinit(FMLPostInitializationEvent e) {
+	
+	
+}
+}

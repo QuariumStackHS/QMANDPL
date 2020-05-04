@@ -1,0 +1,107 @@
+---- Minecraft Crash Report ----
+// You should try our sister game, Minceraft!
+
+Time: 02/05/20 11:02 AM
+Description: Exception getting block type in world
+
+java.lang.Error: Unresolved compilation problem: 
+	Syntax error on token "(", Expression expected after this token
+
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:13)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:64)
+	at qc.slow.quariummod.world.WorldGen.generateover64s(WorldGen.java:80)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:28)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1147)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.World.doesBlockHaveSolidTopSurface(World.java:2897)
+	at net.minecraft.world.SpawnerAnimals.canCreatureTypeSpawnAtLocation(SpawnerAnimals.java:223)
+	at net.minecraft.world.SpawnerAnimals.findChunksForSpawning(SpawnerAnimals.java:135)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:169)
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:692)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:13)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:64)
+	at qc.slow.quariummod.world.WorldGen.generateover64s(WorldGen.java:80)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:28)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1147)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (1104,88,1119), Chunk: (at 0,5,15 in 69,69; contains blocks 1104,0,1104 to 1119,255,1119), Region: (2,2; contains chunks 64,64 to 95,95, blocks 1024,0,1024 to 1535,255,1535)
+Stacktrace:
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at net.minecraft.world.World.doesBlockHaveSolidTopSurface(World.java:2897)
+	at net.minecraft.world.SpawnerAnimals.canCreatureTypeSpawnAtLocation(SpawnerAnimals.java:223)
+	at net.minecraft.world.SpawnerAnimals.findChunksForSpawning(SpawnerAnimals.java:135)
+	at net.minecraft.world.WorldServer.tick(WorldServer.java:169)
+
+-- Affected level --
+Details:
+	Level name: UNIT
+	All players: 1 total; [EntityPlayerMP['Player16'/408, l='UNIT', x=979.91, y=83.36, z=1132.89]]
+	Chunk stats: ServerChunkCache: 906 Drop: 0
+	Level seed: 4276373911792294468
+	Level generator: ID 00 - default, ver 1. Features enabled: true
+	Level generator options: 
+	Level spawn location: World: (-124,64,256), Chunk: (at 4,4,0 in -8,16; contains blocks -128,0,256 to -113,255,271), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+	Level time: 69152 game time, 166 day time
+	Level dimension: 0
+	Level storage version: 0x04ABD - Anvil
+	Level weather: Rain time: 40613 (now: false), thunder time: 15215 (now: false)
+	Level game mode: Game mode: creative (ID 1). Hardcore: false. Cheats: true
+Stacktrace:
+	at net.minecraft.server.MinecraftServer.updateTimeLightAndEntities(MinecraftServer.java:692)
+	at net.minecraft.server.MinecraftServer.tick(MinecraftServer.java:614)
+	at net.minecraft.server.integrated.IntegratedServer.tick(IntegratedServer.java:118)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:485)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 408354432 bytes (389 MB) / 954728448 bytes (910 MB) up to 954728448 bytes (910 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAAAAAAAAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAAAAAAAAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAAAAAAA	Forge{10.13.4.1558} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAAAAAAAAA	quariummod{0.0.1} [Quarium Mod] (bin) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 1 / 8; [EntityPlayerMP['Player16'/408, l='UNIT', x=979.91, y=83.36, z=1132.89]]
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

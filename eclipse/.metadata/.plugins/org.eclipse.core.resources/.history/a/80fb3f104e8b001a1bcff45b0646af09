@@ -1,0 +1,17 @@
+package qc.slow.quariummod.world.struct;
+
+import java.util.Random;
+
+import net.minecraft.world.World;
+
+public class StructGenH {
+	public static final String temple1="temple1";
+public boolean gen(String s, World w,Random r,int X, int Y, int Z) {
+	switch(s) {
+	case temple1:
+		
+break;
+	}
+	return true;
+}
+}

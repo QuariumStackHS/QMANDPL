@@ -1,0 +1,7 @@
+package qc.slow.quariummod.items.itemss;
+
+import net.minecraft.item.ItemSword;
+
+public class Q_p extends ItemSword{
+
+}

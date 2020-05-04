@@ -1,0 +1,131 @@
+---- Minecraft Crash Report ----
+// I'm sorry, Dave.
+
+Time: 30/04/20 10:24 PM
+Description: Exception getting block type in world
+
+java.lang.OutOfMemoryError: GC overhead limit exceeded
+	at net.minecraft.nbt.NBTTagCompound.setString(NBTTagCompound.java:136)
+	at net.minecraft.world.gen.structure.StructureComponent.func_143010_b(StructureComponent.java:44)
+	at net.minecraft.world.gen.structure.StructureStart.func_143021_a(StructureStart.java:87)
+	at net.minecraft.world.gen.structure.MapGenStructure.func_143026_a(MapGenStructure.java:297)
+	at net.minecraft.world.gen.structure.MapGenStructure.generateStructuresInChunk(MapGenStructure.java:103)
+	at net.minecraft.world.gen.ChunkProviderGenerate.populate(ChunkProviderGenerate.java:404)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:313)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1157)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:10)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:50)
+	at qc.slow.quariummod.world.WorldGen.generateover(WorldGen.java:61)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:25)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1142)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:10)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:50)
+	at qc.slow.quariummod.world.WorldGen.generateover(WorldGen.java:61)
+
+
+A detailed walkthrough of the error, its code path and all known details is as follows:
+---------------------------------------------------------------------------------------
+
+-- Head --
+Stacktrace:
+	at net.minecraft.world.World.getBlock(World.java:393)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (-6531,0,3121), Chunk: (at 13,0,1 in -409,195; contains blocks -6544,0,3120 to -6529,255,3135), Region: (-13,6; contains chunks -416,192 to -385,223, blocks -6656,0,3072 to -6145,255,3583)
+Stacktrace:
+	at net.minecraft.world.World.getBlock(World.java:393)
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:10)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:50)
+	at qc.slow.quariummod.world.WorldGen.generateover(WorldGen.java:61)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:25)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1142)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:10)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:50)
+	at qc.slow.quariummod.world.WorldGen.generateover(WorldGen.java:61)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:25)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1147)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.world.gen.ChunkProviderServer.provideChunk(ChunkProviderServer.java:221)
+	at net.minecraft.world.World.getChunkFromChunkCoords(World.java:482)
+	at net.minecraft.world.World.getBlock(World.java:387)
+	at qc.slow.quariummod.world.struct.temple1struct.inits(temple1struct.java:10)
+	at qc.slow.quariummod.world.struct.StructGenH.gen(StructGenH.java:11)
+	at qc.slow.quariummod.world.WorldGen.addStructure(WorldGen.java:50)
+	at qc.slow.quariummod.world.WorldGen.generateover(WorldGen.java:61)
+	at qc.slow.quariummod.world.WorldGen.generate(WorldGen.java:25)
+	at cpw.mods.fml.common.registry.GameRegistry.generateWorld(GameRegistry.java:112)
+	at net.minecraft.world.gen.ChunkProviderServer.populate(ChunkProviderServer.java:314)
+	at net.minecraft.world.chunk.Chunk.populateChunk(Chunk.java:1157)
+	at net.minecraft.world.gen.ChunkProviderServer.originalLoadChunk(ChunkProviderServer.java:208)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:149)
+	at net.minecraft.world.gen.ChunkProviderServer.loadChunk(ChunkProviderServer.java:119)
+	at net.minecraft.server.MinecraftServer.initialWorldChunkLoad(MinecraftServer.java:305)
+	at net.minecraft.server.integrated.IntegratedServer.loadAllWorlds(IntegratedServer.java:79)
+	at net.minecraft.server.integrated.IntegratedServer.startServer(IntegratedServer.java:96)
+	at net.minecraft.server.MinecraftServer.run(MinecraftServer.java:445)
+	at net.minecraft.server.MinecraftServer$2.run(MinecraftServer.java:752)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (-1638,0,779), Chunk: (at 10,0,11 in -103,48; contains blocks -1648,0,768 to -1633,255,783), Region: (-4,1; contains chunks -128,32 to -97,63, blocks -2048,0,512 to -1537,255,1023)
+
+-- Requested block coordinates --
+Details:
+	Found chunk: true
+	Location: World: (-395,0,196), Chunk: (at 5,0,4 in -25,12; contains blocks -400,0,192 to -385,255,207), Region: (-1,0; contains chunks -32,0 to -1,31, blocks -512,0,0 to -1,255,511)
+
+-- System Details --
+Details:
+	Minecraft Version: 1.7.10
+	Operating System: Windows 10 (amd64) version 10.0
+	Java Version: 1.8.0_251, Oracle Corporation
+	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
+	Memory: 107025536 bytes (102 MB) / 970981376 bytes (926 MB) up to 970981376 bytes (926 MB)
+	JVM Flags: 2 total; -Xmx1024M -Xms1024M
+	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	IntCache: cache: 0, tcache: 0, allocated: 13, tallocated: 95
+	FML: MCP v9.05 FML v7.10.99.99 Minecraft Forge 10.13.4.1558 4 mods loaded, 4 mods active
+	States: 'U' = Unloaded 'L' = Loaded 'C' = Constructed 'H' = Pre-initialized 'I' = Initialized 'J' = Post-initialized 'A' = Available 'D' = Disabled 'E' = Errored
+	UCHIJAA	mcp{9.05} [Minecraft Coder Pack] (minecraft.jar) 
+	UCHIJAA	FML{7.10.99.99} [Forge Mod Loader] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAA	Forge{10.13.4.1558} [Minecraft Forge] (forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar) 
+	UCHIJAA	quariummod{0.0.1} [Quarium Mod] (bin) 
+	GL info: ~~ERROR~~ RuntimeException: No OpenGL context found in the current thread.
+	Profiler Position: N/A (disabled)
+	Vec3 Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
+	Player Count: 0 / 8; []
+	Type: Integrated Server (map_client.txt)
+	Is Modded: Definitely; Client brand changed to 'fml,forge'

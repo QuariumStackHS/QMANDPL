@@ -1,0 +1,12 @@
+package qc.slow.quariummod.items.itemss;
+
+import net.minecraft.item.Item;
+import net.minecraft.item.ItemSword;
+
+public class Q_S extends ItemSword {
+
+	public Q_S(ToolMaterial qUARIUM) {
+		// TODO Auto-generated constructor stub
+	}
+
+}

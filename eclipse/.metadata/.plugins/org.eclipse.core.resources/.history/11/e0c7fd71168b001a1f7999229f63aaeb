@@ -1,0 +1,15 @@
+package qc.slow.quariummod.crafts;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraft.item.crafting.CraftingManager;
+import qc.slow.quariummod.blocks.blocks;
+import qc.slow.quariummod.items.items;
+
+public class Crafts {
+	public static void register() {
+		GameRegistry.addRecipe(new ItemStack(blocks.Quarium_Block,1), new Object[] {"###","###","###","#",items.Quarium_ingot});
+	}
+	
+}

@@ -1,0 +1,61 @@
+package qc.slow.quariummod.items;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import net.minecraft.item.Item;
+import net.minecraft.item.Item.ToolMaterial;
+import net.minecraftforge.common.util.EnumHelper;
+import qc.slow.quariummod.Main;
+import qc.slow.quariummod.Ref;
+import qc.slow.quariummod.items.itemss.Q_A;
+import qc.slow.quariummod.items.itemss.Q_H;
+import qc.slow.quariummod.items.itemss.Q_PL;
+import qc.slow.quariummod.items.itemss.Q_S;
+import qc.slow.quariummod.items.itemss.Q_p;
+
+public class items {
+	public static ToolMaterial SAMARIUM=EnumHelper.addToolMaterial("SAMARIUM", 4, 100000, 23.0f, 10.5f, 50);
+	public static ToolMaterial QUARIUM=EnumHelper.addToolMaterial("QUARIUM", 4, 18000, 18.0f, 9.0f, 14);
+	
+	public static ToolMaterial RUTHERIUM=EnumHelper.addToolMaterial("RUTHERIUM", 4, 14000, 13.0f, 8.0f, 22);
+	public static ToolMaterial PROMETIUM=EnumHelper.addToolMaterial("PROMETIUM", 3, 11000, 18.0f, 7.0f, 10);
+	
+	public static Item Quarium_ingot,Cuprite_ingot,samarium_ingot,rutherium_ingot,erbium_ingot,prometium_ingot,Samarium_Chunk;
+	public static Item Quarium_Sword,Quarium_Pickaxe,Quarium_Hoe,Quarium_Axe,Quarium_Shovel;
+public static void init() {
+	
+	Quarium_ingot = new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Ingot").setTextureName(Ref.MOD_ID+":quarium_ingot");
+	Cuprite_ingot = new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("Cuprite_Ingot").setTextureName(Ref.MOD_ID+":Cuprite_Ingot");
+	samarium_ingot = new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("samarium_ingot").setTextureName(Ref.MOD_ID+":samarium_ingot");
+	rutherium_ingot= new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("rutherium_ingot").setTextureName(Ref.MOD_ID+":rutherium_ingot");
+	erbium_ingot= new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("Erbium_ingot").setTextureName(Ref.MOD_ID+":Erbium_ingot");
+	prometium_ingot= new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("prometium_ingot").setTextureName(Ref.MOD_ID+":prometium_ingot");
+	Samarium_Chunk=new Item().setCreativeTab(Main.QuariumTab).setUnlocalizedName("Samarium_Chunk").setTextureName(Ref.MOD_ID+":Samarium_Chunk");
+	
+	Quarium_Sword=new Q_S(QUARIUM).setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Sword").setTextureName(Ref.MOD_ID+":Quarium_Sword");
+	Quarium_Pickaxe=new Q_p(QUARIUM).setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Pickaxe").setTextureName(Ref.MOD_ID+":Quarium_Pickaxe");
+	
+	Quarium_Hoe=new Q_H(QUARIUM).setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Hoe").setTextureName(Ref.MOD_ID+":Quarium_Hoe");
+	Quarium_Axe=new Q_A(QUARIUM).setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Axe").setTextureName(Ref.MOD_ID+":Quarium_Axe");
+	
+	Quarium_Shovel=new Q_PL(QUARIUM).setCreativeTab(Main.QuariumTab).setUnlocalizedName("Quarium_Shovel").setTextureName(Ref.MOD_ID+":Quarium_Shovel");
+	
+	
+}
+public static void register() {
+	GameRegistry.registerItem(Quarium_ingot, "Quarium_ingot");
+	GameRegistry.registerItem(Cuprite_ingot, "Cuprite_ingot");
+	GameRegistry.registerItem(samarium_ingot, "Samarium_ingot");
+	GameRegistry.registerItem(rutherium_ingot, "Rutherium_ingot");
+	GameRegistry.registerItem(erbium_ingot, "Erbium_ingot");
+	GameRegistry.registerItem(prometium_ingot, "Prometium_ingot");
+	GameRegistry.registerItem(Samarium_Chunk,"Samarium_Chunk");
+	
+	
+	GameRegistry.registerItem(Quarium_Sword,"Quarium_Sword");
+	GameRegistry.registerItem(Quarium_Pickaxe,"Quarium_Pickaxe");
+	
+	GameRegistry.registerItem(Quarium_Hoe,"Quarium_Hoe");
+	GameRegistry.registerItem(Quarium_Axe,"Quarium_Axe");
+	GameRegistry.registerItem(Quarium_Shovel,"Quarium_Shovel");
+}
+}

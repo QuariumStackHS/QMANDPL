@@ -1,0 +1,39 @@
+package qc.slow.quariummod.items.itemss;
+
+import java.util.Set;
+
+import com.google.common.collect.ImmutableSet;
+import com.google.common.collect.Sets;
+
+import net.minecraft.block.Block;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemPickaxe;
+import net.minecraft.item.ItemStack;
+
+public class Q_MT extends ItemPickaxe {
+
+	public Q_MT(ToolMaterial p_i45347_1_) {
+		super(p_i45347_1_);
+		// TODO Auto-generated constructor stub
+	}
+private static Set<Block> effectiveAgainst=Sets.newHashSet(new Block[] {
+			Blocks.stone,Blocks.cobblestone,Blocks.dirt,Blocks.crafting_table,Blocks.planks});
+
+@Override
+public Set<String> getToolClasses(ItemStack s){
+return ImmutableSet.of("pickaxe","spade","axe","hoe");
+}
+@Override
+public boolean canHarvestBlock(Block b,ItemStack s) {
+	//effectiveAgainst.contains(b)?true:super.canHarvestBlock(b, s);
+	return true;
+	
+}
+@Override
+public float func_150893_a(ItemStack s,Block b) {
+	
+	return effectiveAgainst.contains(b)?this.efficiencyOnProperMaterial: super.func_150893_a(s, b);
+	
+}
+
+}

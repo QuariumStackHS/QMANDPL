@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ContextState>
+<org.eclipse.mylyn.context.ui.editors>
+<MonitoredWindowOpenEditors class="org.eclipse.ui.internal.WorkbenchWindow" isActive="true" isLaunching="true" number="0">
+<editor id="org.eclipse.mylyn.tasks.ui.editors.task" name="all ingots" partName="all ingots" title="all ingots" tooltip="all ingots">
+<input factoryID="org.eclipse.mylyn.tasks.ui.elementFactories.task.editor" taskHandle="local-1"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="ClientLoad.java" partName="ClientLoad.java" title="ClientLoad.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/CSP/ClientLoad.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/CSP/ClientLoad.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="133" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Main.java" partName="Main.java" title="Main.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/Main.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/Main.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="950" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="items.java" partName="items.java" title="items.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/items/items.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/items/items.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="15" selectionOffset="1500" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Ref.java" partName="Ref.java" title="Ref.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/Ref.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/Ref.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="97" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="CommonLoad.java" partName="CommonLoad.java" title="CommonLoad.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/CSP/CommonLoad.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/CSP/CommonLoad.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="0" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.ui.DefaultTextEditor" name="mcmod.info" partName="mcmod.info" title="mcmod.info" tooltip="Minecraft/src/main/resources/mcmod.info">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/resources/mcmod.info"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="209" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Tabs.java" partName="Tabs.java" title="Tabs.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/Tabs/Tabs.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/Tabs/Tabs.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="436" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="blocks.java" partName="blocks.java" title="blocks.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/blocks/blocks.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/blocks/blocks.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="401" selectionTopPixel="0"/>
+</editor>
+<editor id="org.eclipse.jdt.ui.CompilationUnitEditor" name="Basicblock.java" partName="Basicblock.java" title="Basicblock.java" tooltip="Minecraft/src/main/java/qc/slow/quariummod/blocks/Basicblock.java">
+<input factoryID="org.eclipse.ui.part.FileEditorInputFactory" path="/Minecraft/src/main/java/qc/slow/quariummod/blocks/Basicblock.java"/>
+<editorState selectionHorizontalPixel="0" selectionLength="0" selectionOffset="171" selectionTopPixel="0"/>
+</editor>
+</MonitoredWindowOpenEditors>
+</org.eclipse.mylyn.context.ui.editors>
+</ContextState>

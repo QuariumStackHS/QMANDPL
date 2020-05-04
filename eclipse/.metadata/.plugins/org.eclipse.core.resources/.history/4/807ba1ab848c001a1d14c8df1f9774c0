@@ -1,0 +1,15 @@
+package qc.slow.quariummod.world.struct;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.world.World;
+import qc.slow.quariummod.blocks.blocks;
+
+public class temple1struct {
+public static void inits(World w, int x, int y, int z) {
+
+	w.setBlock(x, w.getActualHeight()+1, z, blocks.Cuprite_ore); 
+		
+	
+
+
+}}

@@ -1,0 +1,18 @@
+package qc.slow.quariummod.event;
+
+import cpw.mods.fml.common.Mod.EventHandler;
+import cpw.mods.fml.common.eventhandler.SubscribeEvent;
+import net.minecraft.init.Blocks;
+import net.minecraft.item.ItemStack;
+import net.minecraftforge.event.world.BlockEvent.HarvestDropsEvent;
+import qc.slow.quariummod.items.items;
+
+public class DropsBlock {
+	@SubscribeEvent
+	public void OnBlockDestroyed(HarvestDropsEvent e) {
+		if (e.block==Blocks.tallgrass) {
+			e.drops.add(new ItemStack(items.Quarium_SEED,1));
+		}
+	}
+
+}

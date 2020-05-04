@@ -1,0 +1,7 @@
+package qc.slow.quariummod.items;
+
+import net.minecraft.item.Item.seeds;
+
+public class QBS_SEED extends seeds {
+
+}

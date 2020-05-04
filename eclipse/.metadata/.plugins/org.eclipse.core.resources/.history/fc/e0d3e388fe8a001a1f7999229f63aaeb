@@ -1,0 +1,16 @@
+[
+{
+  "modid": "QuariumMod",
+  "name": "Quarium Mod",
+  "description": "Quarium mod.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["Slow_riding"],
+  "credits": "To Slow_riding",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

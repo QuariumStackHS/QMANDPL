@@ -1,0 +1,8 @@
+package qc.slow.quariummod.Tile;
+
+import net.minecraft.tileentity.TileEntityChest;
+
+public class BarryEC extends TileEntityChest {
+
+
+}

@@ -1,0 +1,18 @@
+package qc.slow.quariummod.blocks;
+
+import java.util.ArrayList;
+
+import net.minecraft.block.Block;
+import net.minecraft.block.material.Material;
+import net.minecraft.item.ItemStack;
+import net.minecraft.world.World;
+
+public class Basicblock extends Block{
+
+	public Basicblock(Material p_i45394_1_) {
+		super(p_i45394_1_);
+		// TODO Auto-generated constructor stub
+	}
+
+
+}

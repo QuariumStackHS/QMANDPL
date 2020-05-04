@@ -1,0 +1,19 @@
+package qc.slow.quariummod.creativetabs;
+
+import cpw.mods.fml.relauncher.Side;
+import cpw.mods.fml.relauncher.SideOnly;
+import net.minecraft.creativetab.CreativeTabs;
+import net.minecraft.item.Item;
+import qc.slow.quariummod.items.items;
+
+public class Tabs {
+	public static void InitTabs() {
+	public static CreativeTabs QuariumTab= new CreativeTabs("Quarium Tab") {
+		
+		@SideOnly(Side.CLIENT)
+		public Item getTabIconItem() {
+
+			return items.Quarium_ingot;
+		}
+	};}
+}

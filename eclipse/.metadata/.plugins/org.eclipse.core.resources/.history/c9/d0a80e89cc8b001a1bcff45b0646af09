@@ -1,0 +1,15 @@
+package qc.slow.quariummod.Tile;
+
+import cpw.mods.fml.common.registry.GameRegistry;
+import qc.slow.quariummod.Ref;
+
+public class BECTE {
+public static void mainRegistry() {
+	registerTileEntity();
+	}
+
+private static void registerTileEntity() {
+	GameRegistry.registerTileEntity(BarryEC.class, Ref.MOD_ID);
+	
+}
+}

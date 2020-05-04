@@ -1,0 +1,50 @@
+package qc.slow.quariummod.world.struct;
+
+import net.minecraft.init.Blocks;
+import net.minecraft.world.World;
+import qc.slow.quariummod.blocks.blocks;
+
+public class temple1struct {
+public static void inits(World w, int x, int y, int z) {
+
+	if (w.getBlock(x, y, z)==Blocks.air) {
+		if ((w.getBlock(x, y-1, z)==Blocks.grass)) {
+			int i=0;
+			while (i>5) {
+
+				w.setBlockToAir(x+i,y,z);
+				w.setBlockToAir(x+i,y,z-1);
+				w.setBlockToAir(x+i,y,z-2);
+				w.setBlockToAir(x+i,y,z-3);
+				w.setBlockToAir(x+i,y,z-4);
+				w.setBlockToAir(x+i,y-1,z);
+				w.setBlockToAir(x+i,y-1,z-1);
+				w.setBlockToAir(x+i,y-1,z-2);
+				w.setBlockToAir(x+i,y-1,z-3);
+				w.setBlockToAir(x+i,y-1,z-4);
+				++i;
+				
+		}			i=0;
+		w.setBlock(x-1, y-1, z, Blocks.water);
+		w.setBlock(x, y-1, z, Blocks.water);
+		w.setBlock(x, y-1, z-1, Blocks.water);
+		w.setBlock(x-1, y-1,z-1, Blocks.farmland);
+		w.setBlock(x-1, y-1,z-2, Blocks.farmland);
+		w.setBlock(x, y-1, z-2, Blocks.grass);
+		w.setBlock(x, y-1, z-3, Blocks.grass);
+		w.setBlock(x, y, z-3, Blocks.furnace);
+		w.setBlock(x-1, y, z-3, Blocks.fence);
+		w.setBlock(x-1, y+1, z-3, Blocks.fence);
+		w.setBlock(x-1, y+2, z-3, Blocks.fence);
+		
+		w.setBlock(x-2, y, z-3, Blocks.planks);
+		w.setBlock(x-2, y+1, z-3, Blocks.planks);
+		w.setBlock(x-2, y+2, z-3, Blocks.planks);
+		w.setBlock(x-3, y+2, z-3, Blocks.fence);
+		
+		
+		}
+	
+		
+	
+	}}}
