@@ -1,207 +1,31 @@
-[20:36:00] [main/INFO]: Extra: []
-[20:36:00] [main/INFO]: Running with arguments: [--userProperties, {}, --assetsDir, C:/Users/Vekorax/.gradle/caches/minecraft/assets, --assetIndex, 1.7.10, --accessToken, {REDACTED}, --version, 1.7.10, --tweakClass, cpw.mods.fml.common.launcher.FMLTweaker, --tweakClass, net.minecraftforge.gradle.tweakers.CoremodTweaker]
-[20:36:00] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:36:00] [main/INFO]: Using primary tweak class name cpw.mods.fml.common.launcher.FMLTweaker
-[20:36:00] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.CoremodTweaker
-[20:36:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLTweaker
-[20:36:00] [main/INFO]: Forge Mod Loader version 7.99.36.1558 for Minecraft 1.7.10 loading
-[20:36:00] [main/INFO]: Java is Java HotSpot(TM) 64-Bit Server VM, version 1.8.0_221, running on Windows 10:amd64:10.0, installed at C:\Program Files\Java\jdk1.8.0_221\jre
-[20:36:00] [main/INFO]: Managed to load a deobfuscated Minecraft name- we are in a deobfuscated environment. Skipping runtime deobfuscation
-[20:36:00] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.CoremodTweaker
-[20:36:00] [main/INFO]: Injecting location in coremod cpw.mods.fml.relauncher.FMLCorePlugin
-[20:36:00] [main/INFO]: Injecting location in coremod net.minecraftforge.classloading.FMLForgePlugin
-[20:36:00] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:36:00] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:36:00] [main/INFO]: Loading tweak class name net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:36:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:36:00] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLInjectionAndSortingTweaker
-[20:36:00] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:36:00] [main/ERROR]: The binary patch set is missing. Either you are in a development environment, or things are not going to work!
-[20:36:01] [main/ERROR]: FML appears to be missing any signature data. This is not a good thing
-[20:36:01] [main/INFO]: Calling tweak class cpw.mods.fml.relauncher.CoreModManager$FMLPluginWrapper
-[20:36:01] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.FMLDeobfTweaker
-[20:36:02] [main/INFO]: Calling tweak class net.minecraftforge.gradle.tweakers.AccessTransformerTweaker
-[20:36:02] [main/INFO]: Loading tweak class name cpw.mods.fml.common.launcher.TerminalTweaker
-[20:36:02] [main/INFO]: Calling tweak class cpw.mods.fml.common.launcher.TerminalTweaker
-[20:36:02] [main/INFO]: Launching wrapped minecraft {net.minecraft.client.main.Main}
-[20:36:03] [main/INFO]: Setting user: Player176
-[20:36:04] [Client thread/INFO]: LWJGL Version: 2.9.1
-[20:36:05] [Client thread/INFO]: [cpw.mods.fml.client.SplashProgress:start:188]: ---- Minecraft Crash Report ----
-// Surprise! Haha. Well, this is awkward.
-
-Time: 20-05-03 20:36
-Description: Loading screen debug info
-
-This is just a prompt for computer specs to be printed. THIS IS NOT A ERROR
-
-
-A detailed walkthrough of the error, its code path and all known details is as follows:
----------------------------------------------------------------------------------------
-
--- System Details --
-Details:
-	Minecraft Version: 1.7.10
-	Operating System: Windows 10 (amd64) version 10.0
-	Java Version: 1.8.0_221, Oracle Corporation
-	Java VM Version: Java HotSpot(TM) 64-Bit Server VM (mixed mode), Oracle Corporation
-	Memory: 141758664 bytes (135 MB) / 232259584 bytes (221 MB) up to 3806855168 bytes (3630 MB)
-	JVM Flags: 0 total; 
-	AABB Pool Size: 0 (0 bytes; 0 MB) allocated, 0 (0 bytes; 0 MB) used
-	IntCache: cache: 0, tcache: 0, allocated: 0, tallocated: 0
-	FML: 
-	GL info: ' Vendor: 'ATI Technologies Inc.' Version: '4.6.13587 Compatibility Profile Context 20.3.1 26.20.15029.15007' Renderer: 'Radeon RX 570 Series'
-[20:36:05] [Client thread/INFO]: Attempting early MinecraftForge initialization
-[20:36:05] [Client thread/INFO]: MinecraftForge v10.13.4.1558 Initialized
-[20:36:05] [Client thread/INFO]: Replaced 183 ore recipies
-[20:36:05] [Client thread/INFO]: Completed early MinecraftForge initialization
-[20:36:05] [Client thread/INFO]: Found 0 mods from the command line. Injecting into mod discoverer
-[20:36:05] [Client thread/INFO]: Searching C:\Users\Vekorax\Documents\GitHub\QMANDPL\eclipse\mods for mods
-[20:36:10] [Client thread/INFO]: Forge Mod Loader has identified 4 mods to load
-[20:36:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, quariummod] at CLIENT
-[20:36:10] [Client thread/INFO]: Attempting connection with missing mods [mcp, FML, Forge, quariummod] at SERVER
-[20:36:10] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
-[20:36:10] [Client thread/INFO]: Processing ObjectHolder annotations
-[20:36:10] [Client thread/INFO]: Found 341 ObjectHolder annotations
-[20:36:10] [Client thread/INFO]: Identifying ItemStackHolder annotations
-[20:36:10] [Client thread/INFO]: Found 0 ItemStackHolder annotations
-[20:36:10] [Client thread/INFO]: Configured a dormant chunk cache size of 0
-[20:36:11] [Client thread/INFO]: Applying holder lookups
-[20:36:11] [Client thread/INFO]: Holder lookups applied
-[20:36:11] [Client thread/INFO]: Injecting itemstacks
-[20:36:11] [Client thread/INFO]: Itemstack injection complete
-[20:36:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:36:11] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:36:11] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:36:11] [Thread-8/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:36:11] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:11] [Sound Library Loader/INFO]: Sound engine started
-[20:36:12] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[20:36:12] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[20:36:12] [Client thread/INFO]: Injecting itemstacks
-[20:36:12] [Client thread/INFO]: Itemstack injection complete
-[20:36:12] [Client thread/INFO]: Forge Mod Loader has successfully loaded 4 mods
-[20:36:12] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
-[20:36:12] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[20:36:13] [Client thread/INFO]: Created: 256x256 textures/items-atlas
-[20:36:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[20:36:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[20:36:13] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Starting up SoundSystem...
-[20:36:13] [Thread-10/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: Initializing LWJGL OpenAL
-[20:36:13] [Thread-10/INFO]: [paulscode.sound.SoundSystemLogger:message:69]:     (The LWJGL binding of OpenAL.  For more information, see http://www.lwjgl.org)
-[20:36:13] [Thread-10/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: OpenAL initialized.
-[20:36:13] [Sound Library Loader/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:36:13] [Sound Library Loader/INFO]: Sound engine started
-[20:36:14] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[20:36:14] [Client thread/ERROR]: The following texture errors were found.
-[20:36:14] [Client thread/ERROR]: ==================================================
-[20:36:14] [Client thread/ERROR]:   DOMAIN quariummod
-[20:36:14] [Client thread/ERROR]: --------------------------------------------------
-[20:36:14] [Client thread/ERROR]:   domain quariummod is missing 40 textures
-[20:36:14] [Client thread/ERROR]:     domain quariummod has 1 location:
-[20:36:14] [Client thread/ERROR]:       mod quariummod resources at C:\Users\Vekorax\Documents\GitHub\QMANDPL\build\libs\quariummod-0.4.1.jar
-[20:36:14] [Client thread/ERROR]: -------------------------
-[20:36:14] [Client thread/ERROR]:     The missing resources for domain quariummod are:
-[20:36:14] [Client thread/ERROR]:       textures/items/QBS_SEED.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_4.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Hoe.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Axe.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_3.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Sword.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Erbium_ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_5.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Shovel.png
-[20:36:14] [Client thread/ERROR]:       textures/items/rutherium_ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/erbiumblock.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Cuprite_Ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Pickaxe.png
-[20:36:14] [Client thread/ERROR]:       textures/items/quarium_ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/prometium_ore.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/erbium_ore.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_0.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Axe.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Hoe.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Samarium_block.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_SCRAP.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_6.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Sword.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Cuprite_block.png
-[20:36:14] [Client thread/ERROR]:       textures/items/samarium_ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Samarium_ore.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_7.png
-[20:36:14] [Client thread/ERROR]:       textures/items/prometium_ingot.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_1.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/quarium_block.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Cuprite_ore.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Chunk.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Shovel.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/rutherium_block.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Quarium_Mutlitool.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/prometium_block.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/Quarium_SB_stage_2.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/quarium_ore.png
-[20:36:14] [Client thread/ERROR]:       textures/items/Samarium_Pickaxe.png
-[20:36:14] [Client thread/ERROR]:       textures/blocks/rutherium_ore.png
-[20:36:14] [Client thread/ERROR]: -------------------------
-[20:36:14] [Client thread/ERROR]:     No other errors exist for domain quariummod
-[20:36:14] [Client thread/ERROR]: ==================================================
-[20:36:14] [Client thread/ERROR]: +=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=+=
-[20:36:26] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[20:36:26] [Server thread/INFO]: Generating keypair
-[20:36:26] [Server thread/INFO]: Injecting existing block and item data into this server instance
-[20:36:26] [Server thread/INFO]: Applying holder lookups
-[20:36:26] [Server thread/INFO]: Holder lookups applied
-[20:36:26] [Server thread/INFO]: Loading dimension 0 (UNIT) (net.minecraft.server.integrated.IntegratedServer@351a6e0a)
-[20:36:26] [Server thread/INFO]: Loading dimension 1 (UNIT) (net.minecraft.server.integrated.IntegratedServer@351a6e0a)
-[20:36:26] [Server thread/INFO]: Loading dimension -1 (UNIT) (net.minecraft.server.integrated.IntegratedServer@351a6e0a)
-[20:36:26] [Server thread/INFO]: Preparing start region for level 0
-[20:36:28] [Server thread/INFO]: Preparing spawn area: 0%
-[20:36:29] [Server thread/INFO]: Changing view distance to 4, from 10
-[20:36:29] [Netty Client IO #0/INFO]: Server protocol version 2
-[20:36:29] [Netty IO #1/INFO]: Client protocol version 2
-[20:36:29] [Netty IO #1/INFO]: Client attempting to join with 4 mods : FML@7.10.99.99,Forge@10.13.4.1558,mcp@9.05,quariummod@0.0.1
-[20:36:29] [Netty IO #1/INFO]: Attempting connection with missing mods [] at CLIENT
-[20:36:29] [Netty Client IO #0/INFO]: Attempting connection with missing mods [] at SERVER
-[20:36:29] [Server thread/INFO]: [Server thread] Server side modded connection established
-[20:36:29] [Client thread/INFO]: [Client thread] Client side modded connection established
-[20:36:29] [Server thread/INFO]: Player176[local:E:6d2f736e] logged in with entity id 346 at (-144.79105335002043, 74.0, 247.69999998807907)
-[20:36:29] [Server thread/INFO]: Player176 joined the game
-[20:36:34] [Server thread/INFO]: Player176 has just earned the achievement [Taking Inventory]
-[20:36:34] [Client thread/INFO]: [CHAT] Player176 has just earned the achievement [Taking Inventory]
-[20:36:44] [Server thread/INFO]: Saving and pausing game...
-[20:36:44] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[20:36:44] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[20:36:45] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[20:40:39] [Server thread/INFO]: Saving and pausing game...
-[20:40:39] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[20:40:39] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[20:40:39] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[20:43:05] [Server thread/INFO]: Saving and pausing game...
-[20:43:05] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[20:43:05] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[20:43:05] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[20:44:55] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2009ms behind, skipping 40 tick(s)
-[20:45:41] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2519ms behind, skipping 50 tick(s)
-[20:48:36] [Server thread/INFO]: Saving and pausing game...
-[20:48:36] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[20:48:36] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[20:48:36] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[20:48:37] [Server thread/INFO]: Stopping server
-[20:48:37] [Server thread/INFO]: Saving players
-[20:48:37] [Server thread/INFO]: Saving worlds
-[20:48:37] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[20:48:37] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[20:48:37] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[20:48:37] [Server thread/INFO]: Unloading dimension 0
-[20:48:37] [Server thread/INFO]: Unloading dimension -1
-[20:48:37] [Server thread/INFO]: Unloading dimension 1
-[20:48:37] [Server thread/INFO]: Applying holder lookups
-[20:48:37] [Server thread/INFO]: Holder lookups applied
-[20:48:39] [Client thread/INFO]: Stopping!
-[20:48:39] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
-[20:48:39] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: SoundSystem shutting down...
-[20:48:39] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:importantMessage:90]:     Author: Paul Lamb, www.paulscode.com
-[20:48:39] [Client thread/INFO]: [paulscode.sound.SoundSystemLogger:message:69]: 
+[00:14:17] [main/INFO]: Setting user: Player270
+[00:14:18] [Client thread/INFO]: LWJGL Version: 2.9.1
+[00:14:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
+[00:14:26] [Sound Library Loader/INFO]: Sound engine started
+[00:14:27] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[00:14:27] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[00:14:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
+[00:14:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[00:14:27] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[00:14:28] [Sound Library Loader/INFO]: Sound engine started
+[00:14:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[00:14:30] [Server thread/INFO]: Generating keypair
+[00:14:31] [Server thread/INFO]: Preparing start region for level 0
+[00:14:32] [Server thread/INFO]: Preparing spawn area: 0%
+[00:14:32] [Server thread/INFO]: Changing view distance to 4, from 10
+[00:14:33] [Server thread/INFO]: Player270[local:E:3aeb809b] logged in with entity id 433 at (-372.9566230612286, 67.0, -4.058978137996567)
+[00:14:33] [Server thread/INFO]: Player270 joined the game
+[00:14:45] [Server thread/INFO]: Player270 has just earned the achievement [Taking Inventory]
+[00:14:45] [Client thread/INFO]: [CHAT] Player270 has just earned the achievement [Taking Inventory]
+[00:15:27] [Server thread/INFO]: Saving and pausing game...
+[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
+[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
+[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
+[00:15:31] [Server thread/INFO]: Changing view distance to 9, from 4
+[01:08:20] [Client thread/INFO]: Stopping!
+[01:08:20] [Server thread/INFO]: Stopping server
+[01:08:20] [Server thread/INFO]: Saving players
+[01:08:20] [Server thread/INFO]: Saving worlds
+[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
+[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
+[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
