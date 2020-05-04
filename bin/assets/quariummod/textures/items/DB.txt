@@ -1,0 +1,6 @@
+"quarium_ingot" jveux que sa sois un minerais qui parait puissant et bleu
+"Cuprite_Ingot" un minerais brunatre et qui resemblerais a du cuivre
+"samarium_ingot" LE minerais le plus puissant jaune (pas radioactif) et avec des touche de noire un espece de "geme"
+"rutherium_ingot" un minerais rouge plus puissant que le cuprite avec des touche rosatre dedans
+"Erbium_ingot" un minerais vert plante avec la puissance de la nature
+"prometium_ingot" un minerais resemblant a du charbon rougâtre!
