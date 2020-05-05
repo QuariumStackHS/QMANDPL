@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <typeInfoHistroy>
-    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod{Main.java[Main" modifiers="1" timestamp="1588390580317"/>
+    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod{Main.java[Main" modifiers="1" timestamp="1588434485317"/>
     <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.world{WorldRegister.java[WorldRegister" modifiers="1" timestamp="1588286700008"/>
     <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.blocks{Basicblock.java[Basicblock" modifiers="1" timestamp="1588281292512"/>
     <typeInfo handle="=Minecraft/C:\/Users\/slow\/.gradle\/caches\/minecraft\/net\/minecraftforge\/forge\/1.7.10-10.13.4.1558-1.7.10\/forgeSrc-1.7.10-10.13.4.1558-1.7.10.jar&lt;net.minecraft.block(BlockOre.class[BlockOre" modifiers="1" timestamp="1588194856708"/>
     <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.crafts{Crafts.java[Crafts" modifiers="1" timestamp="1588380910923"/>
     <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.blocks{blocks.java[blocks" modifiers="1" timestamp="1588390580306"/>
     <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.blocks{QuariumOre.java[QuariumOre" modifiers="1" timestamp="1588375796687"/>
-    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.items{items.java[items" modifiers="1" timestamp="1588393240803"/>
-    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.world{WorldGen.java[WorldGen" modifiers="1" timestamp="1588348079333"/>
+    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.items{items.java[items" modifiers="1" timestamp="1588452628898"/>
+    <typeInfo handle="=Minecraft/src\/main\/java&lt;qc.slow.quariummod.world{WorldGen.java[WorldGen" modifiers="1" timestamp="1588433837391"/>
 </typeInfoHistroy>

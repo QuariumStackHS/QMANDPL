@@ -1,31 +1,62 @@
-[00:14:17] [main/INFO]: Setting user: Player270
-[00:14:18] [Client thread/INFO]: LWJGL Version: 2.9.1
-[00:14:25] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
-[00:14:26] [Sound Library Loader/INFO]: Sound engine started
-[00:14:27] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
-[00:14:27] [Client thread/INFO]: Created: 16x16 textures/items-atlas
-[00:14:27] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
-[00:14:27] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
-[00:14:27] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
-[00:14:28] [Sound Library Loader/INFO]: Sound engine started
-[00:14:30] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
-[00:14:30] [Server thread/INFO]: Generating keypair
-[00:14:31] [Server thread/INFO]: Preparing start region for level 0
-[00:14:32] [Server thread/INFO]: Preparing spawn area: 0%
-[00:14:32] [Server thread/INFO]: Changing view distance to 4, from 10
-[00:14:33] [Server thread/INFO]: Player270[local:E:3aeb809b] logged in with entity id 433 at (-372.9566230612286, 67.0, -4.058978137996567)
-[00:14:33] [Server thread/INFO]: Player270 joined the game
-[00:14:45] [Server thread/INFO]: Player270 has just earned the achievement [Taking Inventory]
-[00:14:45] [Client thread/INFO]: [CHAT] Player270 has just earned the achievement [Taking Inventory]
-[00:15:27] [Server thread/INFO]: Saving and pausing game...
-[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[00:15:27] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
-[00:15:31] [Server thread/INFO]: Changing view distance to 9, from 4
-[01:08:20] [Client thread/INFO]: Stopping!
-[01:08:20] [Server thread/INFO]: Stopping server
-[01:08:20] [Server thread/INFO]: Saving players
-[01:08:20] [Server thread/INFO]: Saving worlds
-[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
-[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
-[01:08:20] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End
+[12:26:33] [main/INFO]: Setting user: Player226
+[12:26:34] [Client thread/INFO]: LWJGL Version: 2.9.1
+[12:26:41] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
+[12:26:41] [Sound Library Loader/INFO]: Sound engine started
+[12:26:42] [Client thread/INFO]: Created: 16x16 textures/blocks-atlas
+[12:26:42] [Client thread/INFO]: Created: 16x16 textures/items-atlas
+[12:26:42] [Client thread/INFO]: Reloading ResourceManager: Default, FMLFileResourcePack:Forge Mod Loader, FMLFileResourcePack:Minecraft Forge, FMLFileResourcePack:Quarium Mod
+[12:26:43] [Client thread/INFO]: Created: 512x256 textures/blocks-atlas
+[12:26:43] [Client thread/INFO]: Created: 1024x512 textures/items-atlas
+[12:26:44] [Sound Library Loader/INFO]: Sound engine started
+[12:26:50] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:26:50] [Server thread/INFO]: Generating keypair
+[12:26:50] [Server thread/INFO]: Converting map!
+[12:26:50] [Server thread/INFO]: Scanning folders...
+[12:26:50] [Server thread/INFO]: Total conversion count is 0
+[12:26:51] [Server thread/INFO]: Preparing start region for level 0
+[12:26:52] [Server thread/INFO]: Preparing spawn area: 5%
+[12:26:53] [Server thread/INFO]: Preparing spawn area: 9%
+[12:26:54] [Server thread/INFO]: Preparing spawn area: 16%
+[12:26:55] [Server thread/INFO]: Preparing spawn area: 24%
+[12:26:56] [Server thread/INFO]: Preparing spawn area: 37%
+[12:26:57] [Server thread/INFO]: Preparing spawn area: 50%
+[12:26:58] [Server thread/INFO]: Preparing spawn area: 56%
+[12:26:59] [Server thread/INFO]: Preparing spawn area: 65%
+[12:27:00] [Server thread/INFO]: Preparing spawn area: 70%
+[12:27:02] [Server thread/INFO]: Preparing spawn area: 82%
+[12:27:03] [Server thread/INFO]: Preparing spawn area: 89%
+[12:27:03] [Server thread/INFO]: Changing view distance to 9, from 10
+[12:27:04] [Server thread/INFO]: Player226[local:E:3867955d] logged in with entity id 22 at (-44.5, 63.0, 250.5)
+[12:27:04] [Server thread/INFO]: Player226 joined the game
+[12:27:05] [Server thread/INFO]: Player226 has just earned the achievement [Taking Inventory]
+[12:27:06] [Client thread/INFO]: [CHAT] Player226 has just earned the achievement [Taking Inventory]
+[12:27:47] [Server thread/INFO]: Saving and pausing game...
+[12:27:47] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:27:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:27:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:27:48] [Server thread/INFO]: Stopping server
+[12:27:48] [Server thread/INFO]: Saving players
+[12:27:48] [Server thread/INFO]: Saving worlds
+[12:27:48] [Server thread/INFO]: Saving chunks for level 'New World'/Overworld
+[12:27:48] [Server thread/INFO]: Saving chunks for level 'New World'/Nether
+[12:27:48] [Server thread/INFO]: Saving chunks for level 'New World'/The End
+[12:27:54] [Server thread/INFO]: Starting integrated minecraft server version 1.7.10
+[12:27:54] [Server thread/INFO]: Generating keypair
+[12:27:54] [Server thread/INFO]: Preparing start region for level 0
+[12:27:55] [Server thread/INFO]: Preparing spawn area: 72%
+[12:27:55] [Server thread/INFO]: Changing view distance to 9, from 10
+[12:27:55] [Server thread/INFO]: Player226[local:E:2aaeba62] logged in with entity id 9282 at (-128.07489942059593, 68.0, 251.07065391559755)
+[12:27:55] [Server thread/INFO]: Player226 joined the game
+[12:28:27] [Server thread/INFO]: Player226 has just earned the achievement [Taking Inventory]
+[12:28:27] [Client thread/INFO]: [CHAT] Player226 has just earned the achievement [Taking Inventory]
+[12:28:39] [Server thread/INFO]: Player226 has just earned the achievement [Getting Wood]
+[12:28:39] [Client thread/INFO]: [CHAT] Player226 has just earned the achievement [Getting Wood]
+[12:30:11] [Server thread/INFO]: [Player226: Set own game mode to Creative Mode]
+[12:30:11] [Client thread/INFO]: [CHAT] Your game mode has been updated
+[12:30:12] [Client thread/INFO]: Stopping!
+[12:30:12] [Server thread/INFO]: Stopping server
+[12:30:12] [Server thread/INFO]: Saving players
+[12:30:12] [Server thread/INFO]: Saving worlds
+[12:30:12] [Server thread/INFO]: Saving chunks for level 'UNIT'/Overworld
+[12:30:12] [Server thread/INFO]: Saving chunks for level 'UNIT'/Nether
+[12:30:12] [Server thread/INFO]: Saving chunks for level 'UNIT'/The End

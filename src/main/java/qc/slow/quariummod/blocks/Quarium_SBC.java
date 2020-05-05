@@ -145,7 +145,7 @@ public class Quarium_SBC extends Quarbush implements IGrowable
      */
     public int getRenderType()
     {
-        return 6;
+        return 1;
     }
 
     protected Item func_149866_i()
